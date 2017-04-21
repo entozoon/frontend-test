@@ -9,8 +9,8 @@ linters:
   # Allow tab indent as that matches our coding guidelines
   Indentation:
     enabled: true
-    character: space
-    width: 2
+    character: tab
+    width: 1
 
   # Allow empty lines between { } for brevity
   EmptyLineBetweenBlocks:

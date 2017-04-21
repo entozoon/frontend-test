@@ -1,0 +1,11 @@
+/**
+ * attention
+ * Mixin wrapper to apply styles to the various attention states
+ */
+@mixin attention {
+	&:hover,
+	&:focus,
+	&:active {
+		@content;
+	}
+}
